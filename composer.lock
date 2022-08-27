@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "52887165e01da910ee1432d253b63c8d",
+    "packages": [
+        {
+            "name": "mlb/restclient",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlb-to-merce/restclient.git",
+                "reference": "5a82a7e927f30d6fd1319d7a6f157e66a3c99802"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlb-to-merce/restclient/zipball/5a82a7e927f30d6fd1319d7a6f157e66a3c99802",
+                "reference": "5a82a7e927f30d6fd1319d7a6f157e66a3c99802",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RestClient\\": "mlb/src/RestClient"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bartosz Borowiec",
+                    "email": "bartek@malba.pl"
+                }
+            ],
+            "description": "REST Client",
+            "support": {
+                "source": "https://github.com/mlb-to-merce/restclient/tree/master",
+                "issues": "https://github.com/mlb-to-merce/restclient/issues"
+            },
+            "time": "2022-08-27T23:34:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

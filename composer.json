@@ -1,0 +1,21 @@
+{
+  "name": "mlb/restcheck",
+  "description": "Check library RestClient",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "malba",
+      "email": "bartek@malba.pl"
+    }
+  ],
+  "require": {
+    "mlb/restclient": "*"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/mlb-to-merce/restclient.git"
+    }
+  ]
+}
